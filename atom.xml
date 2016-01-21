@@ -4,7 +4,7 @@
   <subtitle><![CDATA[You can code. They cannot. That is pretty damn cool.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2016-01-21T05:11:18.508Z</updated>
+  <updated>2016-01-21T05:12:31.239Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://yoursite.com/2016/01/21/hello-hexo/"/>
     <id>http://yoursite.com/2016/01/21/hello-hexo/</id>
     <published>2016-01-21T03:18:26.000Z</published>
-    <updated>2016-01-21T05:11:18.508Z</updated>
+    <updated>2016-01-21T05:12:31.239Z</updated>
     <content type="html"><![CDATA[<h4 id="u524D_u8A00"><a href="#u524D_u8A00" class="headerlink" title="前言"></a><strong>前言</strong></h4><p>这是一篇用hexo搭建独立博客的简易指南，为什么要搭独立博客呢？是为自我学习有个沉淀的地方（呵呵，其实就是觉得自己折腾出来的比较屌），在开始搭建前会简单描述几个概念以及需要安装的东西，不用深究，知道要用怎么用这些东西就行，实用主义者嘛~<br><em>注意：本节教程只针对Windows用户，mac和Linux移步<a href="https://hexo.io/zh-cn/" target="_blank" rel="external">hexo中文站</a>,且默认git已配置过</em></p>
 <a id="more"></a> 
 <p><strong>FAQ:</strong><br><strong>Q1: 什么是Hexo?</strong><br><strong>A:</strong> <a href="https://hexo.io/zh-cn/" target="_blank" rel="external">Hexo</a>是一个基于Node.js的静态博客程序，可以方便的生成静态网页托管在github [说人话：就是要安装并使用hexo这个东西来搭建博客]</p>
