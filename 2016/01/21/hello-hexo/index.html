@@ -41,7 +41,7 @@
 <link href="/css/main.css?v=0.5.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="博客,文章," />
+  <meta name="keywords" content="Hexo, NexT" />
 
 
 
@@ -61,16 +61,16 @@
 
 
 
-<meta name="description" content="You can code. They cannot. That is pretty damn cool">
+<meta name="description" content="前言这是一篇用hexo搭建独立博客的简易指南，为什么要搭独立博客呢？是为自我学习有个沉淀的地方（呵呵，其实就是觉得自己折腾出来的比较屌），在开始搭建前会简单描述几个概念以及需要安装的东西，不用深究，知道要用怎么用这些东西就行，实用主义者嘛~注意：本节教程只针对Windows用户，mac和Linux移步hexo中文站,且默认git已配置过">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hello Hexo">
-<meta property="og:url" content="http://yoursite.com/2016/01/19/my-new-post/index.html">
+<meta property="og:url" content="http://yoursite.com/2016/01/21/hello-hexo/index.html">
 <meta property="og:site_name" content="Dzw's Blog">
-<meta property="og:description" content="You can code. They cannot. That is pretty damn cool">
-<meta property="og:updated_time" content="2016-01-19T11:18:49.369Z">
+<meta property="og:description" content="前言这是一篇用hexo搭建独立博客的简易指南，为什么要搭独立博客呢？是为自我学习有个沉淀的地方（呵呵，其实就是觉得自己折腾出来的比较屌），在开始搭建前会简单描述几个概念以及需要安装的东西，不用深究，知道要用怎么用这些东西就行，实用主义者嘛~注意：本节教程只针对Windows用户，mac和Linux移步hexo中文站,且默认git已配置过">
+<meta property="og:updated_time" content="2016-01-21T03:32:13.883Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hello Hexo">
-<meta name="twitter:description" content="You can code. They cannot. That is pretty damn cool">
+<meta name="twitter:description" content="前言这是一篇用hexo搭建独立博客的简易指南，为什么要搭独立博客呢？是为自我学习有个沉淀的地方（呵呵，其实就是觉得自己折腾出来的比较屌），在开始搭建前会简单描述几个概念以及需要安装的东西，不用深究，知道要用怎么用这些东西就行，实用主义者嘛~注意：本节教程只针对Windows用户，mac和Linux移步hexo中文站,且默认git已配置过">
 
 
 
@@ -239,8 +239,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-01-19T19:12:25+08:00" content="2016-01-19">
-              2016-01-19
+            <time itemprop="dateCreated" datetime="2016-01-21T11:18:26+08:00" content="2016-01-21">
+              2016-01-21
             </time>
           </span>
 
@@ -265,35 +265,46 @@
       
 
       
-        
+        <h4 id="u524D_u8A00"><a href="#u524D_u8A00" class="headerlink" title="前言"></a><strong>前言</strong></h4><p>这是一篇用hexo搭建独立博客的简易指南，为什么要搭独立博客呢？是为自我学习有个沉淀的地方（呵呵，其实就是觉得自己折腾出来的比较屌），在开始搭建前会简单描述几个概念以及需要安装的东西，不用深究，知道要用怎么用这些东西就行，实用主义者嘛~<br><em>注意：本节教程只针对Windows用户，mac和Linux移步<a href="https://hexo.io/zh-cn/" target="_blank" rel="external">hexo中文站</a>,且默认git已配置过</em></p>
+<h2 id="3C_21-more-_3E"><a href="#3C_21-more-_3E" class="headerlink" title="<a id=" more"=""></a>"><!--more--></h2><p><strong>FAQ:</strong><br><strong>Q1: 什么是Hexo?</strong><br><strong>A:</strong> <a href="https://hexo.io/zh-cn/" target="_blank" rel="external">Hexo</a>是一个基于Node.js的静态博客程序，可以方便的生成静态网页托管在github [说人话：就是要安装并使用hexo这个东西来搭建博客]</p>
+<p><strong>Q2: 什么是Node.js?</strong><br><strong>A:</strong> 管它呢，我们目的是通过hexo搭建博客，只要知道就是需要装它就行了【反正hexo就是基于Ndeo.js开发出来的，想知道具体node.js干嘛的，自行百度吧】</p>
+<p><strong>Q3: 什么是git、github、git bash?</strong><br><strong>A:</strong>  </p>
+<ol>
+<li>git: 分布式版本控制系统[<a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001373962845513aefd77a99f4145f0a2c7a7ca057e7570000" target="_blank" rel="external">什么是版本控制系统</a>],]; </li>
+<li>github: 可以简单认为是开源代码库,这个网站里有全世界开源项目的源代码,全世界的程序员可以把自己写得代码上传到github让别人都看到</li>
+<li>git bash: Windows下的<a href="http://baike.baidu.com/view/756438.htm" target="_blank" rel="external">命令行</a>工具,有了解过linux的就不会陌生，hexo也是基于git bash去管理</li>
+</ol>
+<p><strong>搭建前准备工作</strong></p>
+<blockquote>
+<ul>
+<li>安装<a href="http://git-scm.com/download/" target="_blank" rel="external">git</a></li>
+<li>注册<a href="https://github.com/github" target="_blank" rel="external">github</a></li>
+<li>配置和使用<a href="http://beiyuu.com/github-pages/" target="_blank" rel="external">github</a></li>
+<li>安装<a href="https://nodejs.org/en/" target="_blank" rel="external">node.js</a>[v5.4.1版本]</li>
+</ul>
+</blockquote>
+<p><em>以下按顺利执行即可</em><br><strong>开始安装hexo</strong><br>通过开始菜单Git Bash，打开git，输入安装命令<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure></p>
+<p><strong>创建hexo文件夹</strong><br>安装完成后，在你指定的文件夹下（如<em>D:\hexo</em>），执行以下指令，Hexo即会自动在目标文件夹建立网站所需要的所有文件。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init   </span><br><span class="line">$ npm install <span class="comment">#安装依赖包</span></span><br></pre></td></tr></table></figure></p>
+<p><strong>本地站点查看</strong><br>执行以下命令(在<em>D:\hexo</em>)，然后到浏览器输入<strong>localhost:4000</strong><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate  <span class="comment">#生成静态文件</span></span><br><span class="line">$ hexo server    <span class="comment">#启动服务器</span></span><br></pre></td></tr></table></figure></p>
+<p>至此本地博客已经搭建起来了，自己可以看到了，下面我们要部署到Github，让别人也看到</p>
+<p><strong>部署Github</strong><br>1.前面你已经注册好了github，所以现在先在自己Github主页右下角，创建一个新的repository。比如我的Github账号是geniusdzw，那么我应该创建的repository名字应该是<strong>geniusdzw.github.io</strong></p>
+<p>2.编辑<strong>_config.yml</strong>文件(在<em>D:\hexo下</em>），添加下面的指令在文件最下面即可。你在部署时，要把下面的geniusdzw都换成你的账号名<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line"><span class="built_in">type</span>: git</span><br><span class="line"> repository: https://github.com/geniusdzw/geniusdzw.github.io.git</span><br><span class="line">   branch: master</span><br></pre></td></tr></table></figure></p>
+<p>3.执行下列指令即可完成部署<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate  <span class="comment">#生成静态文件</span></span><br><span class="line">$ hexo deploy    <span class="comment">#部署网站</span></span><br></pre></td></tr></table></figure></p>
+<p><strong>Hexo命令</strong><br>以后管理博客就用到下面这些命令即可<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g == hexo generate  <span class="comment">#生成静态文件</span></span><br><span class="line">$ hexo d == hexo deploy    <span class="comment">#部署网站</span></span><br><span class="line">$ hexo s == hexo server    <span class="comment">#启动服务器</span></span><br><span class="line">$ hexo n == hexo new       <span class="comment">#创建新文章</span></span><br></pre></td></tr></table></figure></p>
+<p><strong>Tips</strong></p>
+<ol>
+<li>有些新github用户需要设置 ssh，否则上述命令会失败。ssh 的介绍和设置方法请看<a href="https://help.github.com/articles/generating-ssh-keys/" target="_blank" rel="external">官方教程</a>，不用担心，很简单。</li>
+<li>每次修改本地文件后，需要<strong>hexo generate</strong>才能保存。每次使用命令时，都要在D:\hexo目录下</li>
+<li>git bash 中都要用到<a href="http://www.jianshu.com/p/205a6951c315" target="_blank" rel="external">linux命令</a>，可以先熟悉下基本命令</li>
+</ol>
+<p><strong>参考文献</strong><br><a href="http://zipperary.com/categories/hexo/" target="_blank" rel="external">hexo系列教程</a><br><a href="https://hexo.io/zh-cn/" target="_blank" rel="external">hexo中文站</a><br><a href="http://www.jianshu.com/p/05289a4bc8b2" target="_blank" rel="external">如何搭建一个独立博客——简明Github Pages与Hexo教程</a><br><a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">廖雪峰官方网站-Git教程</a><br><a href="http://theme-next.iissnan.com/" target="_blank" rel="external">NexT主题配置</a><br><a href="http://jingyan.baidu.com/article/9158e0003500a1a254122836.html" target="_blank" rel="external">添加swiftype站内搜索</a><br><a href="https://swiftype.com/home" target="_blank" rel="external">swiftype官网</a></p>
+
       
     </div>
 
     <footer class="post-footer">
       
-        <div class="post-tags">
-          
-            <a href="/tags/博客/" rel="tag">#博客</a>
-          
-            <a href="/tags/文章/" rel="tag">#文章</a>
-          
-        </div>
-      
 
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-              <a href="/2016/01/19/hello-world/" rel="next" title="Hello World">
-                <i class="fa fa-chevron-left"></i> Hello World
-              </a>
-            
-          </div>
-
-          <div class="post-nav-prev post-nav-item">
-            
-          </div>
-        </div>
       
 
       
@@ -358,7 +369,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">2</span>
+              <span class="site-state-item-count">1</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -411,7 +422,7 @@
               
             
             
-              <p class="post-toc-empty">此文章未包含目录</p>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#u524D_u8A00"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3C_21-more-_3E"><span class="nav-number"></span> <span class="nav-text">"></span></a></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator">
