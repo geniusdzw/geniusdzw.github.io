@@ -4,7 +4,7 @@
   <subtitle><![CDATA[You can code. They cannot. That is pretty damn cool.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2016-01-21T05:38:39.592Z</updated>
+  <updated>2016-04-25T02:33:47.916Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -19,8 +19,8 @@
     <link href="http://yoursite.com/2016/01/21/hello-hexo/"/>
     <id>http://yoursite.com/2016/01/21/hello-hexo/</id>
     <published>2016-01-21T03:18:26.000Z</published>
-    <updated>2016-01-21T05:38:39.592Z</updated>
-    <content type="html"><![CDATA[<h4 id="u524D_u8A00"><a href="#u524D_u8A00" class="headerlink" title="前言"></a><strong>前言</strong></h4><p>这是一篇用hexo搭建独立博客的简易指南，为什么要搭独立博客呢？是为自我学习有个沉淀的地方（呵呵，其实就是觉得自己折腾出来的比较屌），在开始搭建前会简单描述几个概念以及需要安装的东西，不用深究，知道要用怎么用这些东西就行，实用主义者嘛~<br><em>注意：本节教程只针对Windows用户，mac和Linux移步<a href="https://hexo.io/zh-cn/" target="_blank" rel="external">hexo中文站</a>,且默认git已配置过</em></p>
+    <updated>2016-04-25T02:33:47.916Z</updated>
+    <content type="html"><![CDATA[<h4 id="u524D_u8A00"><a href="#u524D_u8A00" class="headerlink" title="前言"></a><strong>前言</strong></h4><p>这是一篇用hexo搭建独立博客的简易指南，在开始搭建前会简单描述几个概念以及需要安装的东西，不用深究，知道要用怎么用这些东西就行~<br><em>注意：本节教程只针对Windoaws用户，mac和Linux移步<a href="https://hexo.io/zh-cn/" target="_blank" rel="external">hexo中文站</a>,且默认git已配置过</em></p>
 <a id="more"></a> 
 <h4 id="FAQ"><a href="#FAQ" class="headerlink" title="FAQ"></a><strong>FAQ</strong></h4><p><strong>Q1: 什么是Hexo?</strong><br><strong>A:</strong> <a href="https://hexo.io/zh-cn/" target="_blank" rel="external">Hexo</a>是一个基于Node.js的静态博客程序，可以方便的生成静态网页托管在github [说人话：就是要安装并使用hexo这个东西来搭建博客]</p>
 <p><strong>Q2: 什么是Node.js?</strong><br><strong>A:</strong> 管它呢，我们目的是通过hexo搭建博客，只要知道就是需要装它就行了【反正hexo就是基于Ndeo.js开发出来的，想知道具体node.js干嘛的，自行百度吧】</p>
@@ -54,7 +54,7 @@
 <h4 id="u53C2_u8003_u6587_u732E"><a href="#u53C2_u8003_u6587_u732E" class="headerlink" title="参考文献"></a><strong>参考文献</strong></h4><p><a href="http://zipperary.com/categories/hexo/" target="_blank" rel="external">hexo系列教程</a><br><a href="https://hexo.io/zh-cn/" target="_blank" rel="external">hexo中文站</a><br><a href="http://www.jianshu.com/p/05289a4bc8b2" target="_blank" rel="external">如何搭建一个独立博客——简明Github Pages与Hexo教程</a><br><a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">廖雪峰官方网站-Git教程</a><br><a href="http://theme-next.iissnan.com/" target="_blank" rel="external">NexT主题配置</a><br><a href="http://jingyan.baidu.com/article/9158e0003500a1a254122836.html" target="_blank" rel="external">添加swiftype站内搜索</a><br><a href="https://swiftype.com/home" target="_blank" rel="external">swiftype官网</a></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h4 id="u524D_u8A00"><a href="#u524D_u8A00" class="headerlink" title="前言"></a><strong>前言</strong></h4><p>这是一篇用hexo搭建独立博客的简易指南，为什么要搭独立博客呢？是为自我学习有个沉淀的地方（呵呵，其实就是觉得自己折腾出来的比较屌），在开始搭建前会简单描述几个概念以及需要安装的东西，不用深究，知道要用怎么用这些东西就行，实用主义者嘛~<br><em>注意：本节教程只针对Windows用户，mac和Linux移步<a href="https://hexo.io/zh-cn/">hexo中文站</a>,且默认git已配置过</em></p>]]>
+    <![CDATA[<h4 id="u524D_u8A00"><a href="#u524D_u8A00" class="headerlink" title="前言"></a><strong>前言</strong></h4><p>这是一篇用hexo搭建独立博客的简易指南，在开始搭建前会简单描述几个概念以及需要安装的东西，不用深究，知道要用怎么用这些东西就行~<br><em>注意：本节教程只针对Windoaws用户，mac和Linux移步<a href="https://hexo.io/zh-cn/">hexo中文站</a>,且默认git已配置过</em></p>]]>
     
     </summary>
     
